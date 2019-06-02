@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Teste Bootstrap">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Entre com sua conta | Estoque</title>
+
+    <link rel="stylesheet" type="text/css" href="frontend/frontend/libs/bootstrap-theme.css">
+    <link rel="stylesheet" type="text/css" href="frontend/libs/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="frontend/css/estiloRegistro.css">
+
+</head>
+<body>
+       
+    <div class="container">
+    <div class="row main">
+        <div class="panel-heading">
+           <div class="panel-title text-center">
+                <h1 class="title">Acesse</h1>
+                <hr />
+            </div>
+        </div> 
+
+        <div class="main-login main-center">
+            <form class="form-horizontal" name="flogin" method="post"
+             action="backend/postLogin.php" onsubmit="return loginChec();">
+
+                <div class="form-group">
+                    <label for="email" class="cols-sm-2 control-label">Usuário</label>
+                    <div class="cols-sm-10">
+                        <div class="input-group">
+                            <span class="input-group-addon">
+                                <i class="glyphicon glyphicon-user" aria-hidden="true"></i>
+                            </span>
+                            <input type="text" class="form-control" name="email" id="email"  placeholder="Entre com seu e-mail"/>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="senha" class="cols-sm-2 control-label">Senha</label>
+                    <div class="cols-sm-10">
+                        <div class="input-group">
+                            <span class="input-group-addon">
+                                <i class="glyphicon glyphicon-lock" aria-hidden="true"></i>
+                            </span>
+
+                            <input type="password" class="form-control" name="senha" id="senha"  placeholder="Entre com a senha"/>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group ">
+                    <button class="btn btn-primary btn-lg btn-block login-button" >Entrar</button>
+                </div>
+                
+                <div class="login-register">
+                    <a href="frontend/registro.html">Não possui uma conta?</a>
+                </div>
+
+
+    <script src="frontend/libs/jquery-3.1.1.js"></script>
+    <script src="frontend/libs/bootstrap.js"></script>
+    <script src="frontend/js/loginChec.js"></script>
+</body>
+</html>

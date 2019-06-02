@@ -1,0 +1,71 @@
+/*CSS Document 22-08-2017 leandrokgb@gmail.com*/
+/*
+.pagewrap {
+	padding: 5px;
+	width: 960px;
+	margin: 20px auto;
+}
+.header {
+	height: 180px;
+  border: solid 1px;
+}
+.content {
+	width: 600px;
+	float: left;
+  border: solid 1px;
+}
+.lateral {
+	width: 300px;
+	float: right;
+  border: solid 1px;
+}
+.foot {
+	clear: both;
+  border: solid 1px;
+}
+*/
+
+/*Media queries*/
+@media screen and (min-width: 980px){
+  .pagewrap{
+    width: 94%;
+  }
+  .content{
+    width: 65%;
+  }
+  .lateral{
+    width: 30%;
+    display: ;
+  }
+}
+
+@media screen and (max-width: 980px){
+  .pagewrap{
+    width: 94%;
+  }
+  .content{
+    width: 65%;
+  }
+  .lateral{
+    width: 30%;
+    display: none;
+  }
+}
+
+@media screen and (max-width: 700px){
+  .content{
+    width: auto;
+    float: none;
+  }
+  .lateral{
+    width: auto;
+    float: none;
+  }
+
+}
+
+@media screen and (max-width: 480px){
+
+
+
+}
